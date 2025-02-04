@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lee Eng Kit</title>
+
+    <!--Styles-->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Italianno&family=Mogra&family=Open+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="open-sans-0" text="#000000" bgcolor="#EEEEEE">
+    
+    <!-- Nav -->
+    <div id="navbar">
+        <ul>
+            <li><a href="/index.html">HOME</a></li>
+            <li><a href="/work.html">WORK</a></li>
+            <li><a href="/contact.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <!-- Header -->
+    <h1 class="italianno"><b>Lee Eng Kit</b></h1>
+    <h2>PSDC Student of Computer Engineering</h2>
+    <hr>
+
+    <!-- Introduction -->
+<table>
+    <tbody>
+        <tr>
+            <td><img class="pfp" src="/image/pfp.jpg" alt="Profile Picture"></td>
+            <td valign="TOP" style="font-size: 20px;">Hello! My name's <i>Lee Eng Kit</i>. I'm currently a student of <a style="color: maroon" href="https://www.psdc.org.my/">Penang Skills Development Center (PSDC)</a>, studying for Diploma in Computer Engineering.</td>
+        </tr>
+    </tbody>
+</table>
+<tbody>
+<ul>
+    <li>Date of Birth: March 14th</li>
+    <li>Age: 28 (As of 2024)</li>
+    <li>Hobbies:
+        <ul>
+            <br>
+            <table class="hobbytable">
+                <thead>
+                <th>Video Games</th>
+                <th>Music</th>
+                <th>Software</th>
+            </thead>
+            <tbody>
+                <tr>
+                <td>Rhythm <br>
+                (O2Jam, Muse Dash, DJ Max Respect)</td>
+                <td>EDM <br>
+                (Tiësto, Conro, Snail's House)</td>
+                <td>DaVinci Resolve <br>
+                (Video Editor)
+                </td>
+                </tr>
+                <tr>
+                <td>Strategy Games <br>
+                (XCOM 2, Invisible Inc., PlateUp!)</td>
+                <td>Game OSTs <br>
+                (Darren Korb, Simon Viklund, Hideki Naganuma)
+                </td>
+                <td>Unity Engine <br>
+                (Game Development)</td>
+                </tr>
+                <tr>
+                <td>Roguelike Games <br>
+                (Enter the Gungeon, Holocure, Hades)</td>
+                <td>Pop <br>
+                (Imagine Dragons, N'SYNC, Little Big)</td>
+                <td>Live2D <br>
+                (2D Model Rigging)</td>
+                </tr>
+                </tbody>
+            </table>
+        </ul>
+    </li>
+</ul>
+</tbody>
+<hr>
+
+<!-- Feedback -->
+<p>For inquiries, please write your contact information down below!</p>
+<form action="/submit" method="post" class="submitform">
+    <table>
+        <thead>
+            <tr>
+                <th>Field</th>
+                <th>Input</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td><input type="text" id="name" name="name" required style="width:97%;"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required style="width:97%;"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Comments:</label></td>
+                <td><textarea id="comments" name="comments" rows="4" style="width:97%;"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="check" name="check" required>
+                    <label for="check">I hereby acknowledge that I have entered a fake contact information and I do not expect to be contacted anytime soon.</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="text-align: center;">
+                    <button type="submit">Submit</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</form>
+
+<!-- Footer -->
+<div id="footerbar">
+    <ul>
+        <li><a href="https://x.com/SMii7Y"><img src="image/twitter.png" alt="twitter/x">X/Twitter</a></li>
+        <li><a href="https://www.twitch.tv/SMii7Y"><img src="image/twitch.png" alt="Twitch">Twitch</a></li>
+        <li><a href="https://www.youtube.com/@SMii7Y"><img src="image/youtube.png" alt="YouTube">YouTube</a></li>
+    </ul>
+</div>
+</body>
+</html>
