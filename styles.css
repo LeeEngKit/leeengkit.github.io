@@ -1,81 +1,138 @@
-/* Custom CSS for Biography Portfolio */
-
-/* Color Palette */
-:root {
-    --dark-purple: #1d1616;
-    --deep-red: #8e1616;
-    --bright-red: #d84040;
-    --light-gray: #eeeeee;
-}
-
-/* Body Styling */
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    color: var(--dark-purple);
+    background-color: #EEEEEE;
+    font-family: "Playwrite FR Moderne", serif !important;
 }
 
-/* Header Styling */
-header {
-    background-color: var(--deep-red);
-    color: var(--light-gray);
+/* Text */
+.space-grotesk-0,
+.fs-4,
+.nav-link,
+#footerbar {
+    font-family: "Space Grotesk", sans-serif !important;
 }
 
-header h1 {
-    font-size: 3rem;
-    font-weight: bold;
+.playwrite-fr-moderne-0 {
+    font-family: "Playwrite FR Moderne", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
 }
 
-header p {
-    font-size: 1.25rem;
-    font-style: italic;
+.fs-4 {
+    font-family: "Space Grotesk", serif;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
 }
 
-/* About Section */
-#about img {
-    border: 5px solid var(--bright-red);
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+/* Header */
+.nav-link {
+    color: white !important;
 }
 
-#about h2 {
-    color: var(--deep-red);
-    font-weight: bold;
+.nav-link.active {
+    background-color: #8E1616 !important;
+    color: white;
 }
 
-/* Portfolio Section */
-#portfolio h2 {
-    color: var(--deep-red);
-    font-weight: bold;
-    margin-bottom: 2rem;
+.nav-link:hover {
+    color: #8E1616 !important;
 }
 
-.card {
-    border: none;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+.nav-link.active:hover {
+    color: #D84040 !important;
 }
 
-.card:hover {
-    transform: scale(1.05);
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+.header-container {
+    background-color: #1D1616;
 }
 
-.card-title {
-    color: var(--deep-red);
-    font-weight: bold;
+/* Heroes */
+.hero-container {
+    background-color: #D46A6A;
+    border-width: 5px;
 }
 
-.card-text {
-    color: var(--dark-purple);
+.hero-image {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+hr {
+    border: 3px solid black;
+}
+
+.hobby-table {
+    background-color: #f8d7da !important; 
+    border: 2px solid #8E1616 !important; 
+}
+
+.hobby-table th {
+    background-color: #8E1616 !important; 
+    color: white !important;
+    text-align: center !important;
+}
+
+.hobby-table td {
+    background-color: #fbeaea !important;
+    text-align: center !important;
 }
 
 /* Footer */
-footer {
-    background-color: var(--dark-purple);
-    color: var(--light-gray);
-    font-size: 0.9rem;
+#footerbar {
+    background-color: #8E1616;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
 
-footer p {
-    margin: 0;
+#footerbar img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+#footerbar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#footerbar ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+#footerbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Contact Form */
+.form-container {
+    background-color: #f8d7da;
+    border: 2px solid #8E1616;
+    color: #1D1616;
+    max-width: 500px;
+    margin: auto;
+}
+
+/* Custom Submit Button */
+.btn-custom {
+    background-color: #8E1616 !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px !important;
+    border-radius: 5px !important;
+    transition: 0.3s !important;
+}
+
+.btn-custom:hover {
+    background-color: #D84040 !important;
+    color: white !important;
 }
